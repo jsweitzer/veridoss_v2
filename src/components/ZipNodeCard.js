@@ -8,7 +8,7 @@ const ZipNodeCard = () => (
       title="ZipNode"
       subtitle="A MEAN Microservice"
     />
-    <CardMedia>
+    <CardMedia className="project-img" >
       <img src="images/mean.png" alt="" />
     </CardMedia>
     <CardHeader title="ZipNode" subtitle="ZipNode is a dead simple microservice that provides zipcode validation. Built on the MEAN stack." />

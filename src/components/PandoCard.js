@@ -9,9 +9,9 @@ const PandoCard = () => (
       subtitle="Leveraging data to make better decisions"
     />
     <CardMedia
-      overlay={<CardTitle title="Accounting services in Maryland with population heatmap overlay" subtitle="Interactive data analysis" />}
+     className="project-img" overlay={<CardTitle subtitle="Accounting services in Maryland with population heatmap overlay" />}
     >
-      <img src="images/gMapReduce.png" alt="" />
+      <img src="images/gMapReduce.png" alt=""/>
     </CardMedia>
     <CardHeader title="Pando" subtitle="A set of tools for aquiring, grooming, and visualizing business data. The end result is an interactive Google Map visualizing the population density and availability of the selected service type in a geographic region"/>
   </Card>

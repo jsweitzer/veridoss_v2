@@ -4,20 +4,20 @@ import FlatButton from 'material-ui/FlatButton';
 import Divider from 'material-ui/Divider';
 import GitHubIcon from './GitHubIcon';
 import LinkedInIcon from './LinkedInIcon';
-import {indigo500} from 'material-ui/styles/colors';
+import {indigo500, lightBlue100} from 'material-ui/styles/colors';
 import Avatar from 'material-ui/Avatar';
 import IconButton from 'material-ui/IconButton';
 
 const VeriBio = () => (
   <Card>
-    <CardTitle title="About" />
+    <CardTitle title="About" style={{"background-color":lightBlue100}}/>
     <Divider />
     <CardHeader  avatar="images/selfie.png" title="Josh Sweitzer" subtitle="Developer"/>
     <CardText>
         I'm a developer and tech enthusiast who loves turning great ideas into reality. I enjoy a mixture of front-end and back-end work.
     </CardText>
     <Divider />
-    <CardHeader title="Specs" subtitle="Experience">
+    <CardHeader title="Tech" subtitle="Experience">
     </CardHeader>
     <CardHeader avatar="images/javascript.png" title="Javascript" subtitle="React, AngularJs, NodeJs, jQuery" />
     <CardHeader avatar="images/net.svg" title=".NET" subtitle="Building secure enterprise applications" />
