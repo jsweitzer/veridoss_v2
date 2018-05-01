@@ -3,13 +3,13 @@ import {Card, CardActions, CardHeader, CardMedia, CardTitle, CardText} from 'mat
 import FlatButton from 'material-ui/FlatButton';
 
 const ZipNodeCard = () => (
-  <Card>
+  <Card className="project-card">
     <CardTitle
       title="ZipNode"
       subtitle="A MEAN Microservice"
     />
     <CardMedia className="project-img" >
-      <img src="images/mean.png" alt="" />
+      <img className="p-img" src="images/mean.png" alt="" />
     </CardMedia>
     <CardHeader title="ZipNode" subtitle="ZipNode is a dead simple microservice that provides zipcode validation. Built on the MEAN stack." />
   </Card>

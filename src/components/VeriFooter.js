@@ -1,10 +1,11 @@
 import React from 'react';
+import {Card,CardTitle} from 'material-ui/Card';
 
 const VeriFooter = () => (
-  <div class="footer">
-    <div class="footer-text">
-      Veridoss.com - Built with React and <a class="footer-link" href="https://github.com/mui-org/material-ui" target="_blank">Material-UI</a>
-    </div>
+  <div class="container">
+    <Card className="foot-card">
+      <CardTitle title="Veridoss.com - Built with React and Material-UI" className="top" />
+    </Card>
   </div>
 );
 

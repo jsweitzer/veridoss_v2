@@ -3,17 +3,17 @@ import {Card, CardActions, CardHeader, CardMedia, CardTitle, CardText} from 'mat
 import FlatButton from 'material-ui/FlatButton';
 
 const PandoCard = () => (
-  <Card>
+  <Card className="project-card">
     <CardTitle
       title="Pando"
       subtitle="Leveraging data to make better decisions"
     />
     <CardMedia
-     className="project-img" overlay={<CardTitle subtitle="Accounting services in Maryland with population heatmap overlay" />}
+     className="project-img" 
     >
-      <img src="images/gMapReduce.png" alt=""/>
+      <img className="p-img" src="images/gMapReduce.png" alt=""/>
     </CardMedia>
-    <CardHeader title="Pando" subtitle="A set of tools for aquiring, grooming, and visualizing business data. The end result is an interactive Google Map visualizing the population density and availability of the selected service type in a geographic region"/>
+    <CardHeader title="Pando" subtitle="A set of tools for aquiring, grooming, and visualizing business data. The end result is an interactive Google Map visualizing the population density and availability of the selected service type in a geographic region. Shown above is an example for accounting services in Maryland."/>
   </Card>
 );
 
